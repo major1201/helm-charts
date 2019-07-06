@@ -1,0 +1,15 @@
+image:
+  repository: major1201/squid-proxy
+  tag: latest
+  pullPolicy: IfNotPresent
+
+nameOverride: ""
+fullnameOverride: ""
+
+account:
+  username: admin
+  password: admin
+
+service:
+  type: LoadBalancer
+  port: 3128
