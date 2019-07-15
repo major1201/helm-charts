@@ -1,0 +1,15 @@
+image:
+  repository: major1201/dante
+  tag: latest
+  pullPolicy: Always
+
+nameOverride: ""
+fullnameOverride: ""
+
+account:
+  username: admin
+  password: admin
+
+service:
+  type: LoadBalancer
+  port: 1080
